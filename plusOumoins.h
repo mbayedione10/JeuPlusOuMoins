@@ -14,7 +14,7 @@ int continuerPartie();
 void menu ();
 void PlusOuMoins(int maxi, int mini);
 int sommeTableau (int tableau[], int tailleTableau);
-
+double moyenneTableau(int tableau[], int tailleTableau);
 
 
 #endif // PLUSOUMOINS_H_INCLUDED
