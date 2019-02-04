@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include "C:\Users\mamadoumbaye\Desktop\IG IT\Langage C\OpenClassroom\bibliotheque\plusOumoins.h"
 
 
 
