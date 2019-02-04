@@ -74,3 +74,20 @@ int sommeTableau (int tableau[], int tailleTableau)
     }
     return  somme;
 }
+
+//calcule et renvoie la moyenne des valeurs
+double moyenneTableau(int tableau[], int tailleTableau)
+{
+    int i = 0;
+    double moy = 0;
+    for  (i = 0;i<tailleTableau; i++)
+    {
+        if (tableau[i]!=0)
+        {
+            moy = sommeTableau(tableau,tailleTableau)/tailleTableau;
+
+        }
+
+    }
+    return  moy;
+}
